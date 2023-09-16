@@ -1,5 +1,6 @@
 import type { Route } from 'next';
 import Link from 'next/link'
+import About from '@/page'
 
 export default function Home() {
   return (
