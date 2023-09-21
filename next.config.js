@@ -4,6 +4,7 @@ const nextConfig = {
     typedRoutes: true,
   },
   compiler: {
+    // babel-plugin-transform-remove-console
     removeConsole: {
       exclude: ["error"],
     },
